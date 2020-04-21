@@ -20,5 +20,10 @@ public class ArithmaticTest {
     {
         Assert.assertEquals(6,arithmatic.mul(3,2));
     }
+    @Test
+    public void givenTwoInput_WhenDivide_ShouldReturnDivision()
+    {
+        Assert.assertEquals(1,arithmatic.div(3,2));
+    }
 
 }

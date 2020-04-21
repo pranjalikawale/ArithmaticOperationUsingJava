@@ -20,4 +20,5 @@ public class ArithmaticTest {
     {
         Assert.assertEquals(6,arithmatic.mul(3,2));
     }
+
 }

@@ -15,5 +15,9 @@ public class ArithmaticTest {
     {
         Assert.assertEquals(1,arithmatic.sub(3,2));
     }
-
+    @Test
+    public void givenTwoInput_WhenMultiply_ShouldReturnMultiplication()
+    {
+        Assert.assertEquals(6,arithmatic.mul(3,2));
+    }
 }
